@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Happy Birthday Enggal</title>
+</head>
+<body>
+    <div class="bg" id="bg">
+        <div class="content" id="btn1">
+            <button onclick="buka()">Buka cuookkkk</button>
+        </div>
+        <div class="content1" id="cntn1">
+            <h3>Cieee ultah</h3>
+            <p>Semogaaa dipanjangkan umurnya dan diberi kesehatan dan ayang yang seiman. awkwkwkwkwwkk</p>
+            <p>GBU</p>
+            <p>Om gondrong & Kinara</p>
+            <div class="btn">
+                <Button onclick="play()">Klik disini</Button>
+            </div>
+        </div>
+    </div>
+    <div class="vid" id="vid">
+        <video src="enggal.mp4" controls></video>
+    </div>
+    <script>
+        function buka() {
+            document.getElementById("cntn1").style.visibility = 'visible';
+        }
+        function play() {
+                document.getElementById("vid").style.visibility = 'visible';
+                document.getElementById("cntn1").style.visibility = 'hidden';
+            }
+    </script>
+
+</body>
+</html>
